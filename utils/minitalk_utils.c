@@ -66,6 +66,6 @@ void	ft_putnbr(int n)
 		ft_putnbr(n / 10);
 		ft_putchar(n % 10 + '0');
 	}
-	else 
+	else
 		ft_putchar(n + '0');
 }
